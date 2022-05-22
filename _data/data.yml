@@ -1,0 +1,107 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Marc Rußwurm
+    tagline: Postdoctral Researcher at EPFL
+    avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: marc.russwurm@epfl.ch
+    googlescholar: https://scholar.google.com/citations?user=MfGMG9wAAAAJ
+    phone:
+    citizenship: german
+    website:  people.epfl.ch/marc.russwurm
+    linkedin: marcrusswurm
+    xing:
+    github: marccoru
+    telegram: # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    twitter: '@marccoru'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+    pdf: marcrusswurm.pdf
+
+    languages:
+      - idiom: German
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: French
+        level: basic
+
+    interests:
+      - item: Running and Cycling
+        link:
+
+      - item: History
+        link:
+
+      - item: Chess
+        link:
+
+career-profile:
+    title: Research Interests
+    summary: |
+      I aim to develop state-of-the-art machine learning methods for meaningful and important applications, such the classification of vegetation from satellite time series or the detection of marine debris on the oceans.
+      My Ph.D. research focused on deep learning models for satellite time series classification and crop type mapping. Today, I deploy general deep learning models on a global scale which requires tackling distribution shift with transfer learning on a variety of different applications.
+      In particular, I train deep learning models with the model-agnostic meta-learning algorithm (MAML) to tackle a variety of different problems with few labelled samples.
+
+education:
+    - degree: Ph.D. (Dr.-Ing.)
+      university: Technical University of Munich
+      time: 2018 - 2022
+      details: |
+        Deep recurrence- and attention-based neural network for crop type mapping with satellite image time series.
+    - degree: BSc and MSc in Geodesy and Geoinformation
+      university: Technical University of Munich
+      time: 2011 - 2018
+
+publications:
+    title: Selected Publications
+    intro: |
+      A full list of publications available via <a href="https://scholar.google.com/citations?user=MfGMG9wAAAAJ&hl=en&oi=ao">google scholar</a>
+    papers:
+      - title: Towards detecting floating objects on a global scale with learned spatial features using Sentinel 2
+        link: "https://www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net/V-3-2021/285/2021/"
+        authors: Mifdal, J., Carmo R., Rußwurm M.
+        conference: ISPRS Ann. Photogramm. Remote Sens. Spatial Inf. Sci., V-3-2021, 285–293, 2021, 169:421 – 435.
+
+      - title: "Self-attention for raw optical satellite time series classification"
+        link: "https://www.sciencedirect.com/science/article/abs/pii/S0924271620301647"
+        authors:  Rußwurm, M. and Körner, M.
+        conference: "Self-attention for raw optical satellite time series classification. ISPRS Journal of Photogrammetry and Remote Sensing, 169:421 – 435. 2020"
+
+      - title:  Meta-learning for few-shot land cover classification
+        link: "https://openaccess.thecvf.com/content_CVPRW_2020/html/w11/Russwurm_Meta-Learning_for_Few-Shot_Land_Cover_Classification_CVPRW_2020_paper.html"
+        authors: Rußwurm, M., Wang, S., Korner, M., and Lobell, D.
+        conference: "In 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW), pages 788–796. EarthVision 2020 Best Paper Award."
+
+      - title:  Segmenting flooded buildings via fusion of multiresolution, multisensor, and multitemporal satellite imagery
+        link: "https://dl.acm.org/doi/10.1609/aaai.v33i01.3301702"
+        authors: Tim G. J. Rudner, Marc Rußwurm, Jakub Fil, Ramona Pelich, Benjamin Bischke, Veronika Kopačková, Piotr Bilinski
+        conference: "Proceedings of the AAAI Conference on Artificial Intelligence. Vol. 33. No. 01. 2019. 2019.."
+
+      - title:  Multi-Temporal Land Cover Classification with Sequential Recurrent Encoders
+        link: "https://www.mdpi.com/2220-9964/7/4/129"
+        authors: Marc Rußwurm and Marco Körner
+        conference: "ISPRS International Journal of Geo-Information, 2018."
+
+      - title: Temporal Vegetation Modelling using Long Short-Term Memory Networks for Crop Identification from Medium-Resolution Multi-Spectral Satellite Images
+        link: "https://openaccess.thecvf.com/content_cvpr_2017_workshops/w18/papers/Russwurm_Temporal_Vegetation_Modelling_CVPR_2017_paper.pdf"
+        authors: Marc Rußwurm and Marco Körner
+        conference: "In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Workshops 2017. (best paper award)"
+
+
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
