@@ -52,10 +52,10 @@ sidebar:
 career-profile:
     title: Research Interests
     summary: |
-      I aim to develop state-of-the-art machine learning methods for meaningful and important applications, such the classification of vegetation from satellite time series or the detection of marine debris on the oceans.
-      My Ph.D. research focused on deep learning models for satellite time series classification and crop type mapping. Today, I deploy general deep learning models on a global scale which requires tackling distribution shift with transfer learning on a variety of different applications.
-      In particular, I train deep learning models with the model-agnostic meta-learning algorithm (MAML) to tackle a variety of different problems with few labelled samples.
-
+    I aim to develop state-of-the-art machine learning methods for meaningful and important applications, such as the classification of vegetation from satellite time series or the detection of marine debris in the oceans. 
+    My Ph.D. research focused on deep learning models for satellite time series classification and crop type mapping. 
+    Today, I deploy general deep learning models on a global scale which requires tackling distribution shifts with transfer learning on a variety of different applications. 
+    In particular, I train deep learning models with the model-agnostic meta-learning algorithm (MAML) to tackle a variety of different problems with few labeled samples.
 education:
     - degree: Ph.D. (Dr.-Ing.)
       university: Technical University of Munich
