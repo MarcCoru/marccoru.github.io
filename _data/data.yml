@@ -52,11 +52,20 @@ sidebar:
 career-profile:
     title: Research Interests
     summary: |
-    I aim to develop state-of-the-art machine learning methods for timely and relevant applications, such as the 
-classification of vegetation from satellite time series or the detection of marine debris in the oceans. 
-    My Ph.D. research focused on deep learning models for satellite time series classification and crop type mapping. 
-    Today, I deploy general deep learning models on a global scale which requires tackling distribution shifts with transfer learning on a variety of different applications. 
-    In particular, I train deep learning models with the model-agnostic meta-learning algorithm (MAML) to tackle a variety of different problems with few labeled samples.
+      I aim to develop state-of-the-art machine learning methods for timely and relevant applications, such as the classification of vegetation from satellite time series or the detection of marine debris in the oceans.
+      My Ph.D. research focused on deep learning models for satellite time series classification and crop type mapping.
+      Today, I deploy general deep learning models on a global scale which requires tackling distribution shifts with transfer learning on a variety of different applications.
+      In particular, I train deep learning models with the model-agnostic meta-learning algorithm (MAML) to tackle a variety of different problems with few labeled samples.
+
+bio:
+    title: Short Bio
+    summary: |
+      I did my Ph.D. research at the Technical University of Munich at the Chair of Remote Sensing Technology.
+      During my Ph.D., I had the opportunity to visited the European Space Agency and the University of Oxford as a participant in the Frontier Development Lab in 2018.
+      Also, I could visit the IRISA Obelix Group in Vannes, France, and the Lobell Lab at Stanford.
+      Today, I am a postdoctoral researcher at the EPFL Laboratory for Environmental Computer Science and Earth Observation (ECEO) where I develop state-of-the-art machine learning methods for meaningful and important applications.
+
+
 education:
     - degree: Ph.D. (Dr.-Ing.)
       university: Technical University of Munich
