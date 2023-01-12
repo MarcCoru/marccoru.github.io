@@ -76,6 +76,23 @@ education:
       university: Technical University of Munich
       time: 2011 - 2018
 
+projects:
+    title: Apps and Links
+    intro: >
+        Some web projects, I worked on.
+    assignments:
+      - title: BreizhCrops
+        link: "https://breizhcrops.org/"
+        tagline: "A benchmark dataset for crop type mapping."
+
+      - title: Beat The MAML
+        link: "http://beat-the-maml.westeurope.cloudapp.azure.com/"
+        tagline: "An interactive interfact for few-shot land cover classification."
+
+      - title: Marine Debris Explorer
+        link: "https://marcrusswurm.users.earthengine.app/view/marinedebrisexplorer"
+        tagline: "An interactive Earthengine app to compare the performance of different marine debris detectors."
+
 publications:
     title: Selected Publications
     intro: |
