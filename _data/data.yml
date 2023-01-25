@@ -79,7 +79,7 @@ education:
 projects:
     title: Apps and Links
     intro: >
-        Some web projects, I worked on.
+        Some projects, I work on.
     assignments:
       - title: BreizhCrops
         link: "https://breizhcrops.org/"
@@ -98,6 +98,11 @@ publications:
     intro: |
       A full list of publications available via <a href="https://scholar.google.com/citations?user=MfGMG9wAAAAJ&hl=en&oi=ao">google scholar</a>
     papers:
+      - title: End-to-end learned early classification of time series for in-season crop type mapping
+        link: "https://www.sciencedirect.com/science/article/pii/S092427162200332X"
+        authors: Marc Rußwurm, Nicolas Courty, Rémi Emonet, Sébastien Lefèvre, DevisTuia, RomainTavenard
+        conference: ISPRS Journal of Photogrammetry and Remote Sensing. Volume 196, February 2023, Pages 445-456.
+
       - title: Towards detecting floating objects on a global scale with learned spatial features using Sentinel 2
         link: "https://www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net/V-3-2021/285/2021/"
         authors: Mifdal, J., Carmo R., Rußwurm M.
