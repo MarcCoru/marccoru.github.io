@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Marc Rußwurm
-    tagline: Postdoctral Researcher at EPFL
+    tagline: Postdoctral Researcher at EPFL and incoming Assistant Professor at Wageningen University
     avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -41,32 +41,75 @@ sidebar:
 
     interests:
       - item: Running and Cycling
-        link:
+        link: https://www.strava.com/athletes/41811622
 
       - item: History
         link:
 
       - item: Chess
-        link:
+        link: https://www.chess.com/member/marccoru
 
 career-profile:
     title: Research Interests
     summary: |
-      I aim to develop state-of-the-art machine learning methods for timely and relevant applications, such as the classification of vegetation from satellite time series or the detection of marine debris in the oceans.
-      My Ph.D. research focused on deep learning models for satellite time series classification and crop type mapping.
-      Today, I deploy general deep learning models on a global scale which requires tackling distribution shifts with transfer learning on a variety of different applications.
-      In particular, I train deep learning models with the model-agnostic meta-learning algorithm (MAML) to tackle a variety of different problems with few labeled samples.
+      My research is focused on machine learning methods applied to real-world remote sensing problems. Concretely, I worked on classification of vegetation from satellite time series and or the detection of marine debris in the oceans.
+      Methodologicaly, I am interested early time series classification, as well as domain shifts and transfer learning. Here, worked on closing the realization gap of meta-learning models between idealized benchmarks and real data.
 
+teaching:
+    title: Teaching
+    intro: A list of recent teaching activities
+    courses:
+          - title: IGARSS 2023 Tutorial part on Time Series
+            link: https://docs.google.com/presentation/d/1BpMmYWldllER5jQL6BNThd25Z9bCbsWCT1aZTR6YvyM/edit?usp=sharing"
+            authors: together with Ronny Hänsch, Ribana Roscher, and Claudio Persello
+            conference: IGARSS Conference 2023 in Pasadena USA
+
+          - title: EPFL CORE Course (ENV-408) lecture on Linear Regression
+            link: ""
+            authors: Marc Rußwurm, Devis Tuia
+            conference: EPFL Lausanne 2023
+
+          - title: EPFL IPEO Course (ENV-540) Exercises on deep learning for remote sensing.
+            link: ""
+            authors: Marc Rußwurm, Devis Tuia
+            conference: EPFL Lausanne 2022
+
+          - title: ISPRS 2022 Tutorial on Time Series
+            link: "https://dl4sits.github.io/isprs2022/"
+            authors: together with Charlotte Pelletier
+            conference: ISPRS Conference 2022 in Nice France.
+talks:
+    title: Talks and Presentations
+    intro: A selected list of recent talks and presentations. For a full list see [this doc](https://docs.google.com/document/d/19tuU260b34NOhiu-4-H5I1KvltgP4VPppjKKmxzj1Tc/edit?usp=sharing)
+    talks:
+          - title: Panel discussion on Resource Efficient Machine Learning
+            link: "https://www.climatechange.ai/events/iclr2023"
+            authors: panel with Sarah Beery, Hannah Kerner
+            conference: Climate Change AI Workshok at the International Conference on Learning Representations (2023) in Kigali, Rwanda.
+          - title: Marine debris detection with Sentinel-2 and Deep Segmentation Models
+            link: "https://docs.google.com/presentation/d/1sLFXJvfFkvqhV9h6Ct1NVQfkezDF72_Gz01UYqI95OI/edit"
+            authors:
+            conference: Visit Geoforschungszentrum (GFZ) Potsdam. 17.05.2023
+          - title: Mapping crop type at large scale in Europe
+            link: "https://docs.google.com/presentation/d/1xaAMmiKhunLYKXff-Wni1ePd2IBgNs3V-6OSEvuQj08/edit?usp=sharing"
+            authors: 
+            conference: Guest Speaker (virtual). Mila/McGill Montreal. Course COMP767. 15.02.2023
+          - title: Guest Lecture on Interpretability of Time Series Models at the Univerisity of Bonn
+            link: "https://docs.google.com/presentation/d/1E82B3qo4qU_m9vQozxRWap_Y93qdJZOo2WG_E7Ruyl0/edit?usp=sharing"
+            authors: 
+            conference: University of Bonn. Geodesy Department. 19.10.2022
 bio:
     title: Short Bio
     summary: |
-      I did my Ph.D. research at the Technical University of Munich at the Chair of Remote Sensing Technology.
-      During my Ph.D., I had the opportunity to visited the European Space Agency and the University of Oxford as a participant in the Frontier Development Lab in 2018.
-      Also, I could visit the IRISA Obelix Group in Vannes, France, and the Lobell Lab at Stanford.
-      Today, I am a postdoctoral researcher at the EPFL Laboratory for Environmental Computer Science and Earth Observation (ECEO) where I develop state-of-the-art machine learning methods for meaningful and important applications.
+      I studied Geodesy and Geoinformation at TU Munich and continued there in a Ph.D. program at the Chair of Remote Sensing Technology that focused on deep time series models for the classification of agricultural fields, i.e., crop type mapping.
+      During my Ph.D., could visit the European Space Agency and the University of Oxford as a participant in the Frontier Development Lab in 2018, the Obelix Laboratory in Vannes, and the Lobell Lab in Stanford.
+      From 2021 to 2023, I joined the ECEO Lab at EPFL as postdoctoral researcher and became Assistant Professor for Machine Learning and Remote Sensing Wageningen University.
 
 
 education:
+    - degree: Postdoctoral Researcher
+      university: École Polytechnique Fédérale de Lausanne (EPFL)
+      time: 2022 - 2023
     - degree: Ph.D. (Dr.-Ing.)
       university: Technical University of Munich
       time: 2018 - 2022
@@ -100,7 +143,7 @@ publications:
     papers:
       - title: End-to-end learned early classification of time series for in-season crop type mapping
         link: "https://www.sciencedirect.com/science/article/pii/S092427162200332X"
-        authors: Marc Rußwurm, Nicolas Courty, Rémi Emonet, Sébastien Lefèvre, DevisTuia, RomainTavenard
+        authors: Marc Rußwurm, Nicolas Courty, Rémi Emonet, Sébastien Lefèvre, Devis Tuia, RomainTavenard
         conference: ISPRS Journal of Photogrammetry and Remote Sensing. Volume 196, February 2023, Pages 445-456.
 
       - title: Towards detecting floating objects on a global scale with learned spatial features using Sentinel 2
@@ -117,22 +160,6 @@ publications:
         link: "https://openaccess.thecvf.com/content_CVPRW_2020/html/w11/Russwurm_Meta-Learning_for_Few-Shot_Land_Cover_Classification_CVPRW_2020_paper.html"
         authors: Rußwurm, M., Wang, S., Korner, M., and Lobell, D.
         conference: "In 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW), pages 788–796. EarthVision 2020 Best Paper Award."
-
-      - title:  Segmenting flooded buildings via fusion of multiresolution, multisensor, and multitemporal satellite imagery
-        link: "https://dl.acm.org/doi/10.1609/aaai.v33i01.3301702"
-        authors: Tim G. J. Rudner, Marc Rußwurm, Jakub Fil, Ramona Pelich, Benjamin Bischke, Veronika Kopačková, Piotr Bilinski
-        conference: "Proceedings of the AAAI Conference on Artificial Intelligence. Vol. 33. No. 01. 2019. 2019.."
-
-      - title:  Multi-Temporal Land Cover Classification with Sequential Recurrent Encoders
-        link: "https://www.mdpi.com/2220-9964/7/4/129"
-        authors: Marc Rußwurm and Marco Körner
-        conference: "ISPRS International Journal of Geo-Information, 2018."
-
-      - title: Temporal Vegetation Modelling using Long Short-Term Memory Networks for Crop Identification from Medium-Resolution Multi-Spectral Satellite Images
-        link: "https://openaccess.thecvf.com/content_cvpr_2017_workshops/w18/papers/Russwurm_Temporal_Vegetation_Modelling_CVPR_2017_paper.pdf"
-        authors: Marc Rußwurm and Marco Körner
-        conference: "In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Workshops 2017. (best paper award)"
-
 
 
 footer: >

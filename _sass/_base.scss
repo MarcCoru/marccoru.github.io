@@ -244,6 +244,13 @@ p {
   }
 }
 
+.summary {
+  p {
+    text-align: justify;
+    text-justify: inter-word;
+  }
+}
+
 .skillset {
   .item {
     margin-bottom: 15px;
