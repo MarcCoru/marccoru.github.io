@@ -59,7 +59,7 @@ teaching:
     title: Teaching
     intro: A list of recent teaching activities
     courses:
-          - title: IGARSS 2023 Tutorial part on Time Series
+          - title: [IGARSS 2023 Tutorial](http://rhaensch.de/igarss23.html) part on Time Series
             link: https://docs.google.com/presentation/d/1BpMmYWldllER5jQL6BNThd25Z9bCbsWCT1aZTR6YvyM/edit?usp=sharing"
             authors: together with Ronny Hänsch, Ribana Roscher, and Claudio Persello
             conference: IGARSS Conference 2023 in Pasadena USA
