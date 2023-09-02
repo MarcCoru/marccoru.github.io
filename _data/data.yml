@@ -8,15 +8,15 @@ sidebar:
 
     # Profile information
     name: Marc Rußwurm
-    tagline: Postdoctral Researcher at EPFL and incoming Assistant Professor at Wageningen University
+    tagline: Assistant Professor for Machine Learning and Remote Sensing at Wageningen University
     avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: marc.russwurm@epfl.ch
+    email: marc.russwurm@wur.nl
     googlescholar: https://scholar.google.com/citations?user=MfGMG9wAAAAJ
     phone:
     citizenship: german
-    website:  people.epfl.ch/marc.russwurm
+    website:  
     linkedin: marcrusswurm
     xing:
     github: marccoru
@@ -59,25 +59,25 @@ teaching:
     title: Teaching
     intro: A list of recent teaching activities
     courses:
-          - title: [IGARSS 2023 Tutorial](http://rhaensch.de/igarss23.html) part on Time Series
-            link: https://docs.google.com/presentation/d/1BpMmYWldllER5jQL6BNThd25Z9bCbsWCT1aZTR6YvyM/edit?usp=sharing"
-            authors: together with Ronny Hänsch, Ribana Roscher, and Claudio Persello
-            conference: IGARSS Conference 2023 in Pasadena USA
+        - title: IGARSS 2023 Tutorial part on Time Series [(link))](http://rhaensch.de/igarss23.html) 
+          link: https://docs.google.com/presentation/d/1BpMmYWldllER5jQL6BNThd25Z9bCbsWCT1aZTR6YvyM/edit?usp=sharing"
+          authors: together with Ronny Hänsch, Ribana Roscher, and Claudio Persello
+          conference: IGARSS Conference 2023 in Pasadena USA
 
-          - title: EPFL CORE Course (ENV-408) lecture on Linear Regression
-            link: ""
-            authors: Marc Rußwurm, Devis Tuia
-            conference: EPFL Lausanne 2023
+        - title: EPFL CORE Course (ENV-408) lecture on Linear Regression
+          link: ""
+          authors: Marc Rußwurm, Devis Tuia
+          conference: EPFL Lausanne 2023
 
-          - title: EPFL IPEO Course (ENV-540) Exercises on deep learning for remote sensing.
-            link: ""
-            authors: Marc Rußwurm, Devis Tuia
-            conference: EPFL Lausanne 2022
+        - title: EPFL IPEO Course (ENV-540) Exercises on deep learning for remote sensing.
+          link: ""
+          authors: Marc Rußwurm, Devis Tuia
+          conference: EPFL Lausanne 2022
 
-          - title: ISPRS 2022 Tutorial on Time Series
-            link: "https://dl4sits.github.io/isprs2022/"
-            authors: together with Charlotte Pelletier
-            conference: ISPRS Conference 2022 in Nice France.
+        - title: ISPRS 2022 Tutorial on Time Series
+          link: "https://dl4sits.github.io/isprs2022/"
+          authors: together with Charlotte Pelletier
+          conference: ISPRS Conference 2022 in Nice France.
 talks:
     title: Talks and Presentations
     intro: A selected list of recent talks and presentations. For a full list see [this doc](https://docs.google.com/document/d/19tuU260b34NOhiu-4-H5I1KvltgP4VPppjKKmxzj1Tc/edit?usp=sharing)
