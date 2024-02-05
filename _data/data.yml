@@ -47,22 +47,24 @@ sidebar:
         link: https://www.chess.com/member/marccoru
 
 career-profile:
-    title: Research Interests
+    title: News and Recent Publications
     summary: |
-      I investigate and develop machine learning methods for real-world remote sensing problems, such as the [classification of vegetation from satellite time series](https://www.sciencedirect.com/science/article/abs/pii/S0924271620301647) and or the [detection of marine debris in the oceans](https://www.cell.com/iscience/pdf/S2589-0042(23)02479-3.pdf).
-      I am interested domain shifts and transfer learning problems that naturally arise from geographic data. Here, I worked on [meta-learning to adjust models on different geographic areas](https://arxiv.org/abs/2004.13390) or make them applicable on different-but-related remote sensing problems. I also work on early time series classification with [ELECTS](https://www.sciencedirect.com/science/article/pii/S092427162200332X) and the data-driven encoding of geographic location with [Siren(SH)](https://arxiv.org/abs/2310.06743) and [SatCLIP](https://arxiv.org/abs/2311.17179).
+      * Our METEOR paper, i.e., ["Meta-learning to address diverse Earth observation problems across resolutions"](https://www.nature.com/articles/s43247-023-01146-0) was **published at Nature Earth & Environment**. We train a meta-learning model to adapt to few-shot remote sensing problems across different spectral, spatial resolutions.
+      * We investigate location encoding in ["Geographic Location Encoding with Spherical Harmonics and Sinusoidal Representation Networks"](https://arxiv.org/abs/2310.06743), which was selected as **spotlight (top 5%!) at the International Conference on Learning Representations (ICLR)**
+      * I am the main organizer of the second [Machine Learning for Remote Sensing (ML4RS)](https://ml-for-rs.github.io/iclr2024/) workshop at ICLR 2024. See you in Vienna, May 11th!
 
 research-community:
     title: Community Engagement
     summary: |
-      I organize the second [Machine Learning for Remote Sensing (ML4RS)](https://ml-for-rs.github.io/iclr2024/) workshop at ICLR 2024 and am active in the [IAPR Thematic Committee 7 Remote Sensing & Mapping](https://iapr-tc7.github.io/) and the [ISPRS TC2 Working Group 5 (TCII-WG5)](https://www2.isprs.org/commissions/comm2/wg5/)
+      I am active in the [IAPR Thematic Committee 7 Remote Sensing & Mapping](https://iapr-tc7.github.io/) and the [ISPRS TC2 Working Group 5 (TCII-WG5)](https://www2.isprs.org/commissions/comm2/wg5/)
 
 teaching:
     title: Teaching
     intro: A list of recent teaching activities
     courses:
-        - title: WUR Advanced Earth Observation (GRS-32306) Jan 2024, Lecture on Marine Applications
-        - title: WUR Deep Learning in Data Science (GRS-34806) April 2024, Course Co-coordination
+        - title: WUR Advanced Earth Observation (GRS-32306) Period 3, lecture on Marine Applications
+        - title: WUR Machine Learning (FTE 35306) Period 4, lecture on Random Forests, coordination of projects.
+        - title: WUR Deep Learning  (GRS-34806) Period 5, Lectures on regularization with CNNs and Segmentation
         - title: IGARSS 2023 Tutorial part on Time Series [(link))](http://rhaensch.de/igarss23.html) 
           link: https://docs.google.com/presentation/d/1BpMmYWldllER5jQL6BNThd25Z9bCbsWCT1aZTR6YvyM/edit?usp=sharing"
           authors: together with Ronny Hänsch, Ribana Roscher, and Claudio Persello
@@ -109,9 +111,7 @@ talks:
 bio:
     title: Short Bio
     summary: |
-      I studied Geodesy and Geoinformation at TU Munich and continued there in a Ph.D. program at the Chair of Remote Sensing Technology that focused on deep time series models for the classification of agricultural fields, i.e., crop type mapping.
-      During my Ph.D., could visit the European Space Agency and the University of Oxford as a participant in the Frontier Development Lab in 2018, the Obelix Laboratory in Vannes, and the Lobell Lab in Stanford.
-      From 2021 to 2023, I joined the ECEO Lab at EPFL as postdoctoral researcher and became Assistant Professor for Machine Learning and Remote Sensing Wageningen University.
+      Marc Rußwurm is Assistant Professor for Machine Learning and Remote Sensing at Wageningen University. His background is in Geodesy and Geoinformation, and he obtained a Ph.D. in Remote Sensing Technology at TU Munich. During his Ph.D., he could visit the European Space Agency and the University of Oxford as a participant in the Frontier Development Lab in 2018, the Obelix Laboratory in Vannes, and the Lobell Lab in Stanford. As a postdoctoral researcher, he joined the Environmental Computational Science and Earth Observation Laboratory at EPFL, Switzerland. His research interests are developing modern machine learning methods for real-world remote sensing problems, such as classifying vegetation from satellite time series and detecting marine debris in the oceans. He is interested in domain shifts and transfer learning problems naturally arising from geographic data.
       
 education:
     - degree: Postdoctoral Researcher
@@ -165,6 +165,7 @@ publications:
       - title: "Geographic Location Encoding with Spherical Harmonics and Sinusoidal Representation Networks"
         link: "https://arxiv.org/abs/2310.06743"
         authors: Marc Rußwurm, Konstantin Klemmer, Esther Rolf, Robin Zbinden, Devis Tuia
+        conference: ICLR 2024 selected for spotlight presentation (top 5%!)
 
       - title: "SatCLIP: Global, General-Purpose Location Embeddings with Satellite Imagery"
         link: "https://arxiv.org/abs/2311.17179"
