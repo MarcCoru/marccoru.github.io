@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Marc Rußwurm
-    tagline: Assistant Professor for Machine Learning and Remote Sensing at Wageningen University
+    tagline: Assistant Professor of Machine Learning and Remote Sensing at Wageningen University
     avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -111,7 +111,7 @@ talks:
 bio:
     title: Short Bio
     summary: |
-      Marc Rußwurm is Assistant Professor for Machine Learning and Remote Sensing at Wageningen University. His background is in Geodesy and Geoinformation, and he obtained a Ph.D. in Remote Sensing Technology at TU Munich. During his Ph.D., he could visit the European Space Agency and the University of Oxford as a participant in the Frontier Development Lab in 2018, the Obelix Laboratory in Vannes, and the Lobell Lab in Stanford. As a postdoctoral researcher, he joined the Environmental Computational Science and Earth Observation Laboratory at EPFL, Switzerland. His research interests are developing modern machine learning methods for real-world remote sensing problems, such as classifying vegetation from satellite time series and detecting marine debris in the oceans. He is interested in domain shifts and transfer learning problems naturally arising from geographic data.
+      Marc Rußwurm is Assistant Professor of Machine Learning and Remote Sensing at Wageningen University. His background is in Geodesy and Geoinformation, and he obtained a Ph.D. in Remote Sensing Technology at TU Munich. During his Ph.D., he could visit the European Space Agency and the University of Oxford as a participant in the Frontier Development Lab in 2018, the Obelix Laboratory in Vannes, and the Lobell Lab in Stanford. As a postdoctoral researcher, he joined the Environmental Computational Science and Earth Observation Laboratory at EPFL, Switzerland. His research interests are developing modern machine learning methods for real-world remote sensing problems, such as classifying vegetation from satellite time series and detecting marine debris in the oceans. He is interested in domain shifts and transfer learning problems naturally arising from geographic data.
       
 education:
     - degree: Postdoctoral Researcher
