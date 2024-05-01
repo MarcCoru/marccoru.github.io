@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geographic Location Encoding with Spherical Harmonics and Sinusoidal Representation Networks (Siren)</title>
+    <style>
+        /* CSS styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center; /* Center align the content */
+        }
+        }
+        h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        /* Grid layout */
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 20px;
+        }
+        .grid-item {
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        /* Code section style */
+        code {
+            display: block;
+            text-align: left;
+            font-family: "Courier", monospace;
+            padding: 10px;
+            margin: 20px 0;
+            border-radius: 8px;
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Big title -->
+    <h1>Geographic Location Encoding with Spherical Harmonics and Sinusoidal Representation Networks</h1>
+    
+    <!-- Big title -->
+    <h2>ICLR 2024 (spotlight) --- Halle B #266 Wed 8 May 4:30 p.m. 6:30 p.m. </h2>
+        
+    <!-- Subtitle with authors -->
+    <h3>Authors: 
+        <a href="https://marcrusswurm.com/">Marc Rußwurm</a>,
+        <a href="https://konstantinklemmer.github.io/">Konstantin Klemmer</a>, 
+        <a href="https://www.estherrolf.com/">Esther Rolf</a>, 
+        <a href="https://people.epfl.ch/robin.zbinden?lang=en">Robin Zbinden</a>, 
+        <a href="https://people.epfl.ch/devis.tuia">Devis Tuia</a>
+    </h3>
+    
+    <h4>[ <a href="https://iclr.cc/virtual/2024/poster/18690">ICLR Page</a> ] 
+        [ <a href="https://openreview.net/forum?id=PudduufFLa">Paper - Open Review</a> ] 
+        [ <a href="https://arxiv.org/abs/2310.06743">Paper - ArXiv</a> ]
+        [ <a href="https://github.com/marccoru/locationencoder">GitHub</a> ]
+    </h4>
+
+    <!-- Abstract section -->
+    <section>
+        <h2>Abstract</h2>
+        <p>This work proposes a novel location encoder for globally distributed geographic data that combines spherical harmonic basis functions, natively defined on spherical surfaces, with sinusoidal representation networks (SirenNets) that can be interpreted as learned Double Fourier Sphere embedding. 
+            We systematically evaluate positional embeddings and neural network architectures across various benchmarks and synthetic evaluation datasets. 
+            In contrast to previous approaches that require the combination of both positional encoding and neural networks to learn meaningful representations, we show that both spherical harmonics and sinusoidal representation networks are competitive on their own but set state-of-the-art performances across tasks when combined.</p>
+    </section>
+        
+    <!-- Grid layout with two columns -->
+    <div class="grid-container">
+        <div class="grid-item">
+            <h2>Paper</h2>
+            <a href="https://openreview.net/forum?id=PudduufFLa"><img src="./ICLR_paper_p1.jpeg" height=250px></a>
+        </div>
+        <div class="grid-item">
+            <h2>Poster</h2>
+            <a href="./ICLR_SphericalHarmonics.pdf"><img src="./ICLR_SphericalHarmonics.png" width=100%></a>
+        <!-- JavaScript can be included here if needed -->
+        </div>
+    </div>
+
+    <section>
+    <div class="grid-item">
+        <h2>Summar Video</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/zp0672w0D7g?si=zMcmC5sg0C24ETp0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    </section>
+
+    <section>
+        <div class="grid-item">
+            <h2>Bibtex</h2>
+            <code>
+                @inproceedings{russwurm2024locationencoding,
+                    title={Geographic Location Encoding 
+                            with Spherical Harmonics 
+                            and Sinusoidal Representation Networks}, 
+                    author={Marc Rußwurm and 
+                            Konstantin Klemmer and 
+                            Esther Rolf and 
+                            Robin Zbinden and 
+                            Devis Tuia},
+                    booktitle = {Proceedings of the International 
+                        Conference on Learning Representations (ICLR)},
+                    year = {2024},
+                    url = {https://iclr.cc/virtual/2024/poster/18690}
+              }
+            </code>    
+        </div>
+    </section>
+
+        
+    <!-- Additional sections or elements can be added here -->
+</div>
+
+</body>
+</html>
