@@ -31,6 +31,7 @@
         p {
             font-size: 16px;
             line-height: 1.6;
+            text-align: left; 
         }
         /* Grid layout */
         .grid-container {
@@ -77,7 +78,6 @@
     
     <!-- Big title -->
     <h2>ICLR 2024 (spotlight) --- Halle B #266 Wed 8 May 4:30 p.m. 6:30 p.m. </h2>
-        
     <!-- Subtitle with authors -->
     <h3>Authors: 
         <a href="https://marcrusswurm.com/">Marc Rußwurm</a>,
@@ -86,28 +86,70 @@
         <a href="https://people.epfl.ch/robin.zbinden?lang=en">Robin Zbinden</a>, 
         <a href="https://people.epfl.ch/devis.tuia">Devis Tuia</a>
     </h3>
+    <img src="pictures.png" height="100px"></img>
 
-    <img class="logo" src="logos/Wageningen.png" alt="Logo 1">
-    <img class="logo" src="logos/EPFL.png" alt="Logo 2">
-    <img class="logo" src="logos/CU.png" alt="Logo 3">
-    <img class="logo" src="logos/Harvard.png" alt="Logo 3">
-    <img class="logo" src="logos/Microsoft.png" alt="Logo 3">
-    
-    
+
     <h4>[ <a href="https://iclr.cc/virtual/2024/poster/18690">ICLR Page</a> ] 
         [ <a href="https://openreview.net/forum?id=PudduufFLa">Paper - Open Review</a> ] 
         [ <a href="https://arxiv.org/abs/2310.06743">Paper - ArXiv</a> ]
+        [ <a href="Ihttps://www.youtube.com/watch?v=zp0672w0D7g">Video</a> ]
+        [ <a href="ICLR_SphericalHarmonics.pdf">Poster</a> ]
         [ <a href="https://github.com/marccoru/locationencoder">GitHub</a> ]
     </h4>
+
+    <img class="logo" src="logos/Wageningen.png" alt="Wageningen University">
+    <img class="logo" src="logos/EPFL.png" alt="Ecole Polytechnique Federale de Lausanne">
+    <img class="logo" src="logos/CU.png" alt="University of Colorado Boulder">
+    <img class="logo" src="logos/Harvard.png" alt="Harvard University">
+    <img class="logo" src="logos/Microsoft.png" alt="Microsoft">
+    
 
     <!-- Abstract section -->
     <section>
         <h2>Abstract</h2>
-        <p>This work proposes a novel location encoder for globally distributed geographic data that combines spherical harmonic basis functions, natively defined on spherical surfaces, with sinusoidal representation networks (SirenNets) that can be interpreted as learned Double Fourier Sphere embedding. 
+        <p>In this work, we proposes a location encoder for globally distributed geographic data that combines spherical harmonic basis functions with sinusoidal representation networks (Sirens). 
             We systematically evaluate positional embeddings and neural network architectures across various benchmarks and synthetic evaluation datasets. 
             In contrast to previous approaches that require the combination of both positional encoding and neural networks to learn meaningful representations, we show that both spherical harmonics and sinusoidal representation networks are competitive on their own but set state-of-the-art performances across tasks when combined.</p>
     </section>
-        
+
+    <section>
+        <div class="grid-item">
+            <h2>Video</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/zp0672w0D7g?si=zMcmC5sg0C24ETp0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        </section>
+    
+
+    <section>
+        <h2>Location Encoders</h2>
+        <img src="locationencoders.png" width="80%">
+        <p>Location encoders are learnable continuous functions that project longitude latitude coordinates into a vector representation. Loction encoders are typically implemented as a non-parametric positional embedding followed by a neural network that provides learnable weights. 
+            Effectively, these location encoders learn an implicit neural (geo)representation of the training data. After being trained on support point locations, they scale well to many test data points, as they just perform inference with a small neural network in linear time.
+            that are paired with ReLU neural networks like FcNet.
+            </p>
+    </section>
+
+    <section>
+        <h2>Proposition: Spherical Harmonics (SH) as Positional Embeddings</h2>
+        <img src="Linear_SH_.png" width="80%">
+        <p>Existing Positional Embedding functions rely on sine cosine basis functions (like in Fourier Series). However, these basis functions assume a rectangular domain of longitude and latitude.
+            We instead advocate for Spherical Harmonic basis function that, even with a linear combination of weights, can capture complex functions on the sphere.</p>
+    </section>
+
+    <section>
+        <h2>Proposition: Siren (with sine activations) as Neural Network</h2>
+        <img src="sirenlinearcomparison.png" width="80%">
+        <p>The linear combination of weights with spherical harmonics can be interpreted as a location encoder with a single linear "neural network" layer. Replacing this linear network with a more complex Siren network (a MLP with sine activation functions) increases the capacity substantially and allows the function to encode higher-resolution functions.</p>
+    </section>
+
+    <section>
+        <h2>Conclusion & Takeaways</h2>
+        <p>Overall, we can recommend: Siren as Neural Network for any location encoding problem and 
+            Spherical Harmonic basis functions for global geographic problems where the spherical geometry matters.</p>
+            <p>More details and experiments are in paper and poster below!</p>
+    </section>
+
+
     <!-- Grid layout with two columns -->
     <div class="grid-container">
         <div class="grid-item">
@@ -122,30 +164,29 @@
     </div>
 
     <section>
-    <div class="grid-item">
-        <h2>Video</h2>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/zp0672w0D7g?si=zMcmC5sg0C24ETp0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    </div>
-    </section>
-
-    <section>
         <div class="grid-item">
-            <h2>Bibtex</h2>
-            <code>
-                @inproceedings{russwurm2024locationencoding,
-                    title={Geographic Location Encoding 
-                            with Spherical Harmonics 
-                            and Sinusoidal Representation Networks}, 
-                    author={Marc Rußwurm and 
-                            Konstantin Klemmer and 
-                            Esther Rolf and 
-                            Robin Zbinden and 
-                            Devis Tuia},
-                    booktitle = {Proceedings of the International 
-                        Conference on Learning Representations (ICLR)},
-                    year = {2024},
-                    url = {https://iclr.cc/virtual/2024/poster/18690}
-              }
+            <h2>Reference & Bibtex</h2>
+            <p>please cite the paper using the following reference:</p>
+
+            <p>
+Rußwurm, M., Klemmer, K., Rolf, E., Zbinden, R., & Tuia, D. (2024). Geographic location encoding with spherical harmonics and sinusoidal representation networks. Proceedings of the International 
+Conference on Learning Representations (ICLR).
+            </p>
+            <p>or import the following bibtex:</p>
+            <code>@inproceedings{russwurm2024locationencoding,
+    title={Geographic Location Encoding 
+            with Spherical Harmonics 
+            and Sinusoidal Representation Networks}, 
+    author={Marc Rußwurm and 
+            Konstantin Klemmer and 
+            Esther Rolf and 
+            Robin Zbinden and 
+            Devis Tuia},
+    booktitle = {Proceedings of the International 
+        Conference on Learning Representations (ICLR)},
+    year = {2024},
+    url = {https://iclr.cc/virtual/2024/poster/18690}
+}
             </code>    
         </div>
     </section>
