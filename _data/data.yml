@@ -49,9 +49,11 @@ sidebar:
 career-profile:
     title: News and Recent Publications
     summary: |
-      * Our METEOR paper, i.e., ["Meta-learning to address diverse Earth observation problems across resolutions"](https://www.nature.com/articles/s43247-023-01146-0) was **published at Nature Earth & Environment**. We train a meta-learning model to adapt to few-shot remote sensing problems across different spectral, spatial resolutions.
+      * The Review Paper [Better, Not Just More: Data-centric machine learning for Earth observation](https://ieeexplore.ieee.org/document/10740469) was published at the IEEE Geoscience and Remote Sensing Magazine.
+      * The third [Machine Learning for Remote Sensing (ML4RS)](https://ml-for-rs.github.io/iclr2025/) workshop at ICLR was accepted and will take place in Singapore in April 2025.
+      * METEOR paper, i.e., ["Meta-learning to address diverse Earth observation problems across resolutions"](https://www.nature.com/articles/s43247-023-01146-0) was **published at Nature Earth & Environment**. We train a meta-learning model to adapt to few-shot remote sensing problems across different spectral, spatial resolutions.
       * We investigate location encoding in ["Geographic Location Encoding with Spherical Harmonics and Sinusoidal Representation Networks"](https://arxiv.org/abs/2310.06743), which was selected as **spotlight (top 5%!) at the International Conference on Learning Representations (ICLR)**
-      * I am the main organizer of the second [Machine Learning for Remote Sensing (ML4RS)](https://ml-for-rs.github.io/iclr2024/) workshop at ICLR 2024. See you in Vienna, May 11th!
+      * I was the main organizer of the second [Machine Learning for Remote Sensing (ML4RS)](https://ml-for-rs.github.io/iclr2024/) workshop at ICLR 2024. See you in Vienna, May 11th!
 
 research-community:
     title: Community Engagement
