@@ -1,20 +1,20 @@
-{% assign research-community = site.data.data.research-community %}
-{% if research-community %}
+{% assign academic-cv = site.data.data.academic-cv %}
+{% if academic-cv %}
 <section class="section summary-section">
-
-  <!--<embed src="marcrusswurm.pdf" width="100%" height="500">-->
 
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
       <i class="fas fa-user fa-stack-1x fa-inverse"></i>
     </span>
-    {{ research-community.title }}
+    {{ academic-cv.title }}
   </h2>
 
   <div class="summary">
-    {{ research-community.summary | markdownify }}
+    {{ academic-cv.summary | markdownify }}
   </div><!--//summary-->
+
+  <embed src="{{ academic-cv.pdf }}" width="100%" height="500">
     
 </section><!--//section-->
 {% endif %}

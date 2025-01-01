@@ -7,6 +7,12 @@
     </li>
     {% endif %}
 
+    {% if sidebar.pdf %}
+    <li class="pdf"><i class="fas fa-file-pdf"></i>
+      <a href="{{ sidebar.pdf }}" target="_blank">Academic CV</a>
+    </li>
+    {% endif %}
+
     {% if sidebar.googlescholar %}
     <li class="email"><i class="fas fa-university"></i>
       <a href="{{ sidebar.googlescholar }}">Google Scholar</a>
@@ -88,12 +94,6 @@
     {% if sidebar.goodreads %}
     <li class="goodreads-g"><i class="fab fa-goodreads-g"></i>
       <a href="https://www.goodreads.com/user/show/{{ sidebar.goodreads }}" target="_blank">{{ sidebar.goodreads }}</a>
-    </li>
-    {% endif %}
-
-    {% if sidebar.pdf %}
-    <li class="pdf"><i class="fas fa-file-pdf"></i>
-      <a href="{{ sidebar.pdf }}" target="_blank">Resume PDF</a>
     </li>
     {% endif %}
 

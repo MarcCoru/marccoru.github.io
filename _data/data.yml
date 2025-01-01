@@ -23,7 +23,7 @@ sidebar:
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@marccoru'
+    twitter: # '@marccoru'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
@@ -35,6 +35,9 @@ sidebar:
 
       - idiom: English
         level: Professional
+
+      - idiom: French
+        level: Basic
 
     interests:
       - item: Running and Cycling
@@ -51,71 +54,64 @@ career-profile:
     summary: |
       * The Review Paper [Better, Not Just More: Data-centric machine learning for Earth observation](https://ieeexplore.ieee.org/document/10740469) was published at the IEEE Geoscience and Remote Sensing Magazine.
       * The third [Machine Learning for Remote Sensing (ML4RS)](https://ml-for-rs.github.io/iclr2025/) workshop at ICLR was accepted and will take place in Singapore in April 2025.
-      * METEOR paper, i.e., ["Meta-learning to address diverse Earth observation problems across resolutions"](https://www.nature.com/articles/s43247-023-01146-0) was **published at Nature Earth & Environment**. We train a meta-learning model to adapt to few-shot remote sensing problems across different spectral, spatial resolutions.
+      * METEOR paper, i.e., ["Meta-learning to address diverse Earth observation problems across resolutions"](https://www.nature.com/articles/s43247-023-01146-0) was published at Nature Earth & Environment. We train a meta-learning model to adapt to few-shot remote sensing problems across different spectral, spatial resolutions.
       * We investigate location encoding in ["Geographic Location Encoding with Spherical Harmonics and Sinusoidal Representation Networks"](https://arxiv.org/abs/2310.06743), which was selected as **spotlight (top 5%!) at the International Conference on Learning Representations (ICLR)**
-      * I was the main organizer of the second [Machine Learning for Remote Sensing (ML4RS)](https://ml-for-rs.github.io/iclr2024/) workshop at ICLR 2024. See you in Vienna, May 11th!
+      * I was the main organizer of the second [Machine Learning for Remote Sensing (ML4RS)](https://ml-for-rs.github.io/iclr2024/) workshop at ICLR 2024.
 
-research-community:
-    title: Community Engagement
+academic-cv:
+    title: Academic CV
     summary: |
-      I am active in the [IAPR Thematic Committee 7 Remote Sensing & Mapping](https://iapr-tc7.github.io/) and the [ISPRS TC2 Working Group 5 (TCII-WG5)](https://www2.isprs.org/commissions/comm2/wg5/)
+      For a detailed list of talks, teaching activities, community engagement, and publications, please see my [Academic CV](marcrusswurm.pdf)
+    pdf: "marcrusswurm.pdf"
+
+
+#research-community:
+#    title: Community Engagement
+#    summary: |
+#      I am active in the [IAPR Thematic Committee 7 Remote Sensing & Mapping](https://iapr-tc7.github.io/) and the [ISPRS TC2 Working Group 5 (TCII-WG5)](https://www2.isprs.org/commissions/comm2/wg5/)
 
 teaching:
     title: Teaching
-    intro: A list of recent teaching activities
+    intro: I regularly teach in the following courses at Wageningen University.
     courses:
-        - title: WUR Advanced Earth Observation (GRS-32306) Period 3, lecture on Marine Applications
-        - title: WUR Machine Learning (FTE 35306) Period 4, lecture on Random Forests, coordination of projects.
-        - title: WUR Deep Learning  (GRS-34806) Period 5, Lectures on regularization with CNNs and Segmentation
-        - title: IGARSS 2023 Tutorial part on Time Series [(link))](http://rhaensch.de/igarss23.html) 
-          link: https://docs.google.com/presentation/d/1BpMmYWldllER5jQL6BNThd25Z9bCbsWCT1aZTR6YvyM/edit?usp=sharing"
-          authors: together with Ronny Hänsch, Ribana Roscher, and Claudio Persello
-          conference: IGARSS Conference 2023 in Pasadena USA
+        - title: Advanced Earth Observation (GRS-32306)
+        - title: Machine Learning (FTE-35306)
+        - title: Deep Learning (GRS-34806)
+        
+#talks:
+#    title: Recent Talks and Presentations
+#    intro: A selected list of recent talks and presentations. For a full list see [this doc](https://docs.google.com/document/d19tuU260b34NOhiu-4-H5I1KvltgP4VPppjKKmxzj1Tc/edit?usp=sharing)
+#    talks:
+#          - title: Invited Talk
+#            link: "https://www.imageclef.org/LifeCLEF2023"
+#            conference: LifeCLEF 2023 Workshop at ImageCLEF
+#
+#          - title: Panel discussion on Resource Efficient Machine Learning
+#            link: "https://www.climatechange.ai/events/iclr2023"
+#            authors: panel with Sarah Beery, Hannah Kerner
+#            conference: Climate Change AI Workshok at the International Conference on Learning Representations (2023) in Kigali,Rwanda.
+#          - title: Marine debris detection with Sentinel-2 and Deep Segmentation Models
+#            link: "https://docs.google.com/presentation/d/1sLFXJvfFkvqhV9h6Ct1NVQfkezDF72_Gz01UYqI95OI/edit"
+#            authors:
+#            conference: Visit Geoforschungszentrum (GFZ) Potsdam. 17.05.2023
+#          - title: Mapping crop type at large scale in Europe
+#            link: "https://docs.google.com/presentation/d/1xaAMmiKhunLYKXff-Wni1ePd2IBgNs3V-6OSEvuQj08/edit?usp=sharing"
+#            authors: 
+#            conference: Guest Speaker (virtual). Mila/McGill Montreal. Course COMP767. 15.02.2023
+#          - title: Guest Lecture on Interpretability of Time Series Models at the Univerisity of Bonn
+#            link: "https://docs.google.com/presentation/d/1E82B3qo4qU_m9vQozxRWap_Y93qdJZOo2WG_E7Ruyl0/edit?usp=sharing"
+#            authors: 
+#            conference: University of Bonn. Geodesy Department. 19.10.2022
 
-        - title: EPFL CORE Course (ENV-408) lecture on Linear Regression
-          link: ""
-          authors: Marc Rußwurm, Devis Tuia
-          conference: EPFL Lausanne 2023
-
-        - title: EPFL IPEO Course (ENV-540) Exercises on deep learning for remote sensing.
-          link: ""
-          authors: Marc Rußwurm, Devis Tuia
-          conference: EPFL Lausanne 2022
-
-        - title: ISPRS 2022 Tutorial on Time Series
-          link: "https://dl4sits.github.io/isprs2022/"
-          authors: together with Charlotte Pelletier
-          conference: ISPRS Conference 2022 in Nice France.
-talks:
-    title: Recent Talks and Presentations
-    intro: A selected list of recent talks and presentations. For a full list see [this doc](https://docs.google.com/document/d/19tuU260b34NOhiu-4-H5I1KvltgP4VPppjKKmxzj1Tc/edit?usp=sharing)
-    talks:
-          - title: Invited Talk
-            link: "https://www.imageclef.org/LifeCLEF2023"
-            conference: LifeCLEF 2023 Workshop at ImageCLEF
-
-          - title: Panel discussion on Resource Efficient Machine Learning
-            link: "https://www.climatechange.ai/events/iclr2023"
-            authors: panel with Sarah Beery, Hannah Kerner
-            conference: Climate Change AI Workshok at the International Conference on Learning Representations (2023) in Kigali, Rwanda.
-          - title: Marine debris detection with Sentinel-2 and Deep Segmentation Models
-            link: "https://docs.google.com/presentation/d/1sLFXJvfFkvqhV9h6Ct1NVQfkezDF72_Gz01UYqI95OI/edit"
-            authors:
-            conference: Visit Geoforschungszentrum (GFZ) Potsdam. 17.05.2023
-          - title: Mapping crop type at large scale in Europe
-            link: "https://docs.google.com/presentation/d/1xaAMmiKhunLYKXff-Wni1ePd2IBgNs3V-6OSEvuQj08/edit?usp=sharing"
-            authors: 
-            conference: Guest Speaker (virtual). Mila/McGill Montreal. Course COMP767. 15.02.2023
-          - title: Guest Lecture on Interpretability of Time Series Models at the Univerisity of Bonn
-            link: "https://docs.google.com/presentation/d/1E82B3qo4qU_m9vQozxRWap_Y93qdJZOo2WG_E7Ruyl0/edit?usp=sharing"
-            authors: 
-            conference: University of Bonn. Geodesy Department. 19.10.2022
 bio:
     title: Short Bio
     summary: |
       Marc Rußwurm is Assistant Professor of Machine Learning and Remote Sensing at Wageningen University. His background is in Geodesy and Geoinformation, and he obtained a Ph.D. in Remote Sensing Technology at TU Munich. During his Ph.D., he could visit the European Space Agency and the University of Oxford as a participant in the Frontier Development Lab in 2018, the Obelix Laboratory in Vannes, and the Lobell Lab in Stanford. As a postdoctoral researcher, he joined the Environmental Computational Science and Earth Observation Laboratory at EPFL, Switzerland. His research interests are developing modern machine learning methods for real-world remote sensing problems, such as classifying vegetation from satellite time series and detecting marine debris in the oceans. He is interested in domain shifts and transfer learning problems naturally arising from geographic data.
       
 education:
+    - degree: Assistant Professor
+      university: Wageningen University (WU)
+      time: 2023 - today
     - degree: Postdoctoral Researcher
       university: École Polytechnique Fédérale de Lausanne (EPFL)
       time: 2022 - 2023
@@ -158,40 +154,47 @@ projects:
         link: "https://tslearn.readthedocs.io/en/stable/"
         tagline: "A machine learning library for time series. (minor contributions while working on ELECTS)"
 
-
 publications:
     title: Selected Publications
     intro: |
       A full list of publications available via <a href="https://scholar.google.com/citations?user=MfGMG9wAAAAJ&hl=en&oi=ao">google scholar</a>
     papers:
+
+
+      - title: "SatCLIP: Global, General-Purpose Location Embeddings with Satellite Imagery"
+        link: "https://arxiv.org/abs/2311.17179"
+        authors: Konstantin Klemmer, Esther Rolf, Caleb Robinson, Lester Mackey, Marc Rußwurm
+        conference: In Proceedings of AAAI 2025.
+
+      - title: "Better, Not Just More: Data-centric machine learning for Earth observation"
+        link: "https://ieeexplore.ieee.org/document/10740469"
+        authors: Ribana Roscher, Marc Rußwurm, Caroline Gevaert, Michael Kampffmeyer, Jefersson A. Dos Santos, Maria Vakalopoulou, Ronny Hänsch, Stine Hansen, Keiller Nogueira, Jonathan Prexl, Devis Tuia
+        conference: IEEE Geoscience and Remote Sensing Magazine. vol. 12, no. 4, pp. 335-355, Dec. 2024, doi 10.1109/MGRS.2024.3470986
+
       - title: "Geographic Location Encoding with Spherical Harmonics and Sinusoidal Representation Networks"
         link: "https://arxiv.org/abs/2310.06743"
         authors: Marc Rußwurm, Konstantin Klemmer, Esther Rolf, Robin Zbinden, Devis Tuia
         conference: ICLR 2024 selected for spotlight presentation (top 5%!)
 
-      - title: "SatCLIP: Global, General-Purpose Location Embeddings with Satellite Imagery"
-        link: "https://arxiv.org/abs/2311.17179"
-        authors: Konstantin Klemmer, Esther Rolf, Caleb Robinson, Lester Mackey, Marc Rußwurm
-
-      - title: Large-scale detection of marine debris in coastal areas with Sentinel-2
+      - title: Large-scale detection of marine debris in coastal areas with Sentinel-2.
         link: "https://www.sciencedirect.com/science/article/pii/S092427162200332X"
         authors: Marc Rußwurm, Sushen Jilla Venkatesa, Devis Tuia
         conference: Cell IScience, 26(12).
 
-      - title: End-to-end learned early classification of time series for in-season crop type mapping
-        link: "https://www.sciencedirect.com/science/article/pii/S092427162200332X"
-        authors: Marc Rußwurm, Nicolas Courty, Rémi Emonet, Sébastien Lefèvre, Devis Tuia, Romain Tavenard
-        conference: ISPRS Journal of Photogrammetry and Remote Sensing. Volume 196, February 2023, Pages 445-456.
+#      - title: End-to-end learned early classification of time series for in-season crop type mapping
+#        link: "https://www.sciencedirect.com/science/article/pii/S092427162200332X"
+#        authors: Marc Rußwurm, Nicolas Courty, Rémi Emonet, Sébastien Lefèvre, Devis Tuia, Romain Tavenard
+#        conference: ISPRS Journal of Photogrammetry and Remote Sensing. Volume 196, February 2023, Pages 445-456.
 
-      - title: "Self-attention for raw optical satellite time series classification"
-        link: "https://www.sciencedirect.com/science/article/abs/pii/S0924271620301647"
-        authors:  Rußwurm, M. and Körner, M.
-        conference: "Self-attention for raw optical satellite time series classification. ISPRS Journal of Photogrammetry and Remote Sensing, 169:421 – 435. 2020"
+#      - title: "Self-attention for raw optical satellite time series classification"
+#        link: "https://www.sciencedirect.com/science/article/abs/pii/S0924271620301647"
+#        authors:  Rußwurm, M. and Körner, M.
+#        conference: "Self-attention for raw optical satellite time series classification. ISPRS Journal of Photogrammetry and Remote Sensing, 169:421 – 435. 2020"
 
-      - title:  Meta-learning for few-shot land cover classification
-        link: "https://openaccess.thecvf.com/content_CVPRW_2020/html/w11/Russwurm_Meta-Learning_for_Few-Shot_Land_Cover_Classification_CVPRW_2020_paper.html"
-        authors: Rußwurm, M., Wang, S., Korner, M., and Lobell, D.
-        conference: "In 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW), pages 788–796. EarthVision 2020 Best Paper Award."
+#      - title:  Meta-learning for few-shot land cover classification
+#        link: "https://openaccess.thecvf.com/content_CVPRW_2020/html/w11/Russwurm_Meta-Learning_for_Few-Shot_Land_Cover_Classification_CVPRW_2020_paper.html"
+#        authors: Rußwurm, M., Wang, S., Korner, M., and Lobell, D.
+#        conference: "In 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW), pages 788–796. EarthVision 2020 Best Paper Award."
 
 
 footer: >
