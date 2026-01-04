@@ -8,11 +8,11 @@ sidebar:
 
     # Profile information
     name: Marc Rußwurm
-    tagline: Assistant Professor of Machine Learning and Remote Sensing at Wageningen University
+    tagline: Junior Research Group Leader at the University of Bonn
     avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: marc.russwurm@wur.nl
+    email: marc.russwurm@ilr.uni-bonn.de
     googlescholar: https://scholar.google.com/citations?user=MfGMG9wAAAAJ
     phone:
     citizenship: german
@@ -39,25 +39,13 @@ sidebar:
       - idiom: French
         level: Basic
 
-    interests:
-      - item: Running and Cycling
-        link: https://www.strava.com/athletes/41811622
-
-      - item: History
-        link:
-
-      - item: Chess
-        link: https://www.chess.com/member/marccoru
 
 career-profile:
     title: News and Recent Publications
     summary: |
-      * The Review Paper [Better, Not Just More: Data-centric machine learning for Earth observation](https://ieeexplore.ieee.org/document/10740469) was published at the IEEE Geoscience and Remote Sensing Magazine.
-      * The third [Machine Learning for Remote Sensing (ML4RS)](https://ml-for-rs.github.io/iclr2025/) workshop at ICLR was accepted and will take place in Singapore in April 2025.
-      * METEOR paper, i.e., ["Meta-learning to address diverse Earth observation problems across resolutions"](https://www.nature.com/articles/s43247-023-01146-0) was published at Nature Earth & Environment. We train a meta-learning model to adapt to few-shot remote sensing problems across different spectral, spatial resolutions.
-      * We investigate location encoding in ["Geographic Location Encoding with Spherical Harmonics and Sinusoidal Representation Networks"](https://arxiv.org/abs/2310.06743), which was selected as **spotlight (top 5%!) at the International Conference on Learning Representations (ICLR)**
-      * I was the main organizer of the second [Machine Learning for Remote Sensing (ML4RS)](https://ml-for-rs.github.io/iclr2024/) workshop at ICLR 2024.
-
+      * I start the [MEO-Lab](https://meo-lab.github.io) as new Junior Research Group Leader at the Institute of Food and Resources Economics at the University of Bonn in February 2026
+      * The fourth [Machine Learning for Remote Sensing (ML4RS)](https://ml-for-rs.github.io/iclr2026/) workshop at ICLR was accepted and will take place in Rio in April 2026.
+      * Our paper on "SatCLIP: Global, General-Purpose Location Embeddings with Satellite Imagery" was accepted for publication at AAAI 2025. [arXiv](https://arxiv.org/abs/2311.17179)
 academic-cv:
     title: Academic CV
     summary: |
@@ -106,12 +94,15 @@ teaching:
 bio:
     title: Short Bio
     summary: |
-      Marc Rußwurm is Assistant Professor of Machine Learning and Remote Sensing at Wageningen University. His background is in Geodesy and Geoinformation, and he obtained a Ph.D. in Remote Sensing Technology at TU Munich. During his Ph.D., he could visit the European Space Agency and the University of Oxford as a participant in the Frontier Development Lab in 2018, the Obelix Laboratory in Vannes, and the Lobell Lab in Stanford. As a postdoctoral researcher, he joined the Environmental Computational Science and Earth Observation Laboratory at EPFL, Switzerland. His research interests are developing modern machine learning methods for real-world remote sensing problems, such as classifying vegetation from satellite time series and detecting marine debris in the oceans. He is interested in domain shifts and transfer learning problems naturally arising from geographic data.
-      
+      Marc Rußwurm is a Junior Research Group Leader of the [MEO-lab](https://meo-lab.github.io/) at the University of Bonn. He was previously Assistant Professor of Machine Learning and Remote Sensing at Wageningen University. His background is in Geodesy and Geoinformation, and he obtained a Ph.D. in Remote Sensing Technology at TU Munich. During his Ph.D., he visited the European Space Agency and the University of Oxford as a participant in the Frontier Development Lab (2018), and conducted research stays at the Obelix Laboratory in Vannes and the Lobell Lab at Stanford. As a postdoctoral researcher, he joined the Environmental Computational Science and Earth Observation Laboratory at EPFL, Switzerland. His research focuses on modern machine learning for Earth observation, with an emphasis on geospatial representation learning and Earth Embeddings. He develops methods that enable robust, transferable analysis of geospatial data and applies them to challenges such as agriculture, species mapping, and marine litter monitoring, with a particular interest in domain shifts and transfer learning in geographic settings.
+
 education:
+    - degree: Junior Research Group Leader
+      university: University of Bonn
+      time: 2026 - today
     - degree: Assistant Professor
       university: Wageningen University (WU)
-      time: 2023 - today
+      time: 2023 - 2026
     - degree: Postdoctoral Researcher
       university: École Polytechnique Fédérale de Lausanne (EPFL)
       time: 2022 - 2023
@@ -159,7 +150,10 @@ publications:
     intro: |
       A full list of publications available via <a href="https://scholar.google.com/citations?user=MfGMG9wAAAAJ&hl=en&oi=ao">google scholar</a>
     papers:
-
+      - title: "Earth Embeddings: Towards AI-centric Representations of our Planet"
+        link: "https://eartharxiv.org/repository/view/11083/"
+        authors: Konstantin Klemmer, Esther Rolf, Marc Rußwurm, Gustau Camps-Valls, Mikolaj Czerkawski, Stefano Ermon, Alistair Francis, Nathan Jacobs, Hannah Rae Kerner, Lester Mackey, Gengchen Mai, Oisin Mac Aodha, Markus Reichstein, Caleb Robinson, David Rolnick, Evan Shelhamer, Vincent Sitzmann, Devis Tuia, Xiaoxiang Zhu
+        conference: EarthArxiv Preprint.
 
       - title: "SatCLIP: Global, General-Purpose Location Embeddings with Satellite Imagery"
         link: "https://arxiv.org/abs/2311.17179"
