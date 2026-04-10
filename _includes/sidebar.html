@@ -4,7 +4,7 @@
   <div class="profile-container">
 
     {% if sidebar.name %}
-    <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="profile picture" />
+    <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="profile picture" title="Photo: Gregor H&uuml;bl/Universit&auml;t Bonn" />
     {% endif %}
 
     {% if sidebar.name %}
@@ -16,6 +16,8 @@
     {% endif %}
 
   </div><!--//profile-container-->
+
+  {% include affiliation.html %}
 
   {% include contact.html %}
 

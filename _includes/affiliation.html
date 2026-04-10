@@ -1,0 +1,23 @@
+{% assign affiliation = site.data.data.sidebar.affiliation %}
+{% if affiliation %}
+<div class="affiliation-container container-block">
+
+  <h2 class="container-block-title">
+    Affiliation
+  </h2>
+
+  {% for item in affiliation %}
+  <div class="item">
+    {% if item.link %}
+    <div class="affiliation-title"><a href="{{ item.link }}" target="_blank">{{ item.title }}</a></div>
+    {% else %}
+    <div class="affiliation-title">{{ item.title }}</div>
+    {% endif %}
+    {% if item.time %}
+    <div class="affiliation-time">{{ item.time }}</div>
+    {% endif %}
+  </div><!--//item-->
+  {% endfor %}
+
+</div><!--//affiliation-container-->
+{% endif %}

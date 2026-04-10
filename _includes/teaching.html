@@ -10,25 +10,51 @@
     {{ teaching.title }}
   </h2>
 
-  {% if teaching.intro %}
-  <div class="intro">
-    {{ teaching.intro | markdownify }}
-  </div><!--//intro-->
-  {% endif %}
-
-  <ul>
-  {% for publication in teaching.courses %}
-  <div class="item">
-    {% if publication.link %}
-      <li><a href="{{ publication.link }}">{{ publication.title }}</a></li>
-    {% else %}
-      <li>{{ publication.title }}</li>
+  {% if teaching.groups %}
+    {% for group in teaching.groups %}
+    <div class="teaching-group">
+      <h4 class="teaching-group-title">{{ group.title }}</h3>
+      {% if group.intro %}
+      <div class="intro">
+        {{ group.intro | markdownify }}
+      </div><!--//intro-->
+      {% endif %}
+      <ul>
+      {% for publication in group.courses %}
+      <div class="item">
+        {% if publication.link %}
+          <li><a href="{{ publication.link }}">{{ publication.title }}</a></li>
+        {% else %}
+          <li>{{ publication.title }}</li>
+        {% endif %}
+        <div class="publication-authors">{{ publication.authors }}</div>
+        <div class="publication-conference">{{ publication.conference }}</div>
+      </div><!--//item-->
+      {% endfor %}
+      </ul>
+    </div><!--//teaching-group-->
+    {% endfor %}
+  {% else %}
+    {% if teaching.intro %}
+    <div class="intro">
+      {{ teaching.intro | markdownify }}
+    </div><!--//intro-->
     {% endif %}
-    <div class="publication-authors">{{ publication.authors }}</div>
-    <div class="publication-conference">{{ publication.conference }}</div>
-  </div><!--//item-->
-  {% endfor %}
-  </ul>
+
+    <ul>
+    {% for publication in teaching.courses %}
+    <div class="item">
+      {% if publication.link %}
+        <li><a href="{{ publication.link }}">{{ publication.title }}</a></li>
+      {% else %}
+        <li>{{ publication.title }}</li>
+      {% endif %}
+      <div class="publication-authors">{{ publication.authors }}</div>
+      <div class="publication-conference">{{ publication.conference }}</div>
+    </div><!--//item-->
+    {% endfor %}
+    </ul>
+  {% endif %}
 
 </section><!--//section-->
 {% endif %}

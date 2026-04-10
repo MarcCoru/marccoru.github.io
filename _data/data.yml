@@ -8,8 +8,15 @@ sidebar:
 
     # Profile information
     name: Marc Rußwurm
-    tagline: Junior Research Group Leader at the University of Bonn
-    avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    tagline: Junior Professor and Emmy Noether Group Leader at the University of Bonn
+    avatar: profile_2026.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    affiliation:
+      - title: Machine Learning in Earth Observation Laboratory
+        link: https://meo-lab.github.io/
+      - title: Institute for Food and Resource Economics
+        link: https://www.ilr1.uni-bonn.de/de
+      - title: University of Bonn
+        link: https://www.uni-bonn.de/de
 
     # Sidebar links
     email: marc.russwurm@uni-bonn.de
@@ -41,11 +48,13 @@ sidebar:
 
 
 career-profile:
-    title: News and Recent Publications
+    title: News
     summary: |
-      * I start the [MEO-Lab](https://meo-lab.github.io) as new Junior Research Group Leader at the Institute of Food and Resources Economics at the University of Bonn in February 2026
-      * The fourth [Machine Learning for Remote Sensing (ML4RS)](https://ml-for-rs.github.io/iclr2026/) workshop at ICLR was accepted and will take place in Rio in April 2026.
-      * Our paper on "SatCLIP: Global, General-Purpose Location Embeddings with Satellite Imagery" was accepted for publication at AAAI 2025. [arXiv](https://arxiv.org/abs/2311.17179)
+      * In September 2026, I will be appointed as Junior Professor and start a new Emmy Noether Group in Methods of AI titled "Earth Embeddings: Learning Concept Maps in Neural Nets".
+      * I will be on parental leave from May 2026 to September 2026, so emails and responses will be delayed.
+      * [Arjun Rao](https://arjunashokrao.me/)'s ICLR 2026 paper, ["Measuring the Intrinsic Dimension of Earth Representations"](https://arxiv.org/abs/2511.02101), has been accepted for publication.
+      * I am co-organizing the [ML4RS workshop at ICLR 2026 in Rio de Janeiro](https://ml-for-rs.github.io/iclr2026/) again this year.
+
 academic-cv:
     title: Academic CV
     summary: |
@@ -53,18 +62,32 @@ academic-cv:
     pdf: "marcrusswurm.pdf"
 
 
-#research-community:
-#    title: Community Engagement
-#    summary: |
-#      I am active in the [IAPR Thematic Committee 7 Remote Sensing & Mapping](https://iapr-tc7.github.io/) and the [ISPRS TC2 Working Group 5 (TCII-WG5)](https://www2.isprs.org/commissions/comm2/wg5/)
+research-community:
+    title: Research
+    summary: |
+      Research in the [Machine Learning in Earth Observation Laboratory](https://meo-lab.github.io/) focuses on:
+
+      * [Earth Embeddings and Geospatial Representation Learning](https://meo-lab.github.io/research/earth-embeddings/)
+      * [Few-Shot Meta-Learning and Transfer Learning](https://meo-lab.github.io/research/few-shot-meta-learning/)
+      * [Vegetation Extreme Event Modelling and Time Series Analysis](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6362223)
+      * Application collaborations in marine litter monitoring, tree species classification, camera trap image analysis, and phenology prediction
+
+      Further details are available on the [MEO Lab research pages](https://meo-lab.github.io/research/).
 
 teaching:
     title: Teaching
-    intro: I regularly teach in the following courses at Wageningen University.
-    courses:
-        - title: Advanced Earth Observation (GRS-32306)
-        - title: Machine Learning (FTE-35306)
-        - title: Deep Learning (GRS-34806)
+    groups:
+        - title: University of Bonn
+          intro: I will set up the following course at the University of Bonn.
+          courses:
+              - title: Geospatial Representation Learning
+                conference: Starting in Winter Semester 2026/2027 for MSc Geodesy and Mobile Robotics students
+        - title: Wageningen University
+          intro: I taught at Wageningen the following courses.
+          courses:
+              - title: Advanced Earth Observation (GRS-32306)
+              - title: Machine Learning (FTE-35306)
+              - title: Deep Learning (GRS-34806)
         
 #talks:
 #    title: Recent Talks and Presentations
@@ -94,12 +117,15 @@ teaching:
 bio:
     title: Short Bio
     summary: |
-      Marc Rußwurm is a Junior Research Group Leader of the [MEO-lab](https://meo-lab.github.io/) at the University of Bonn. He was previously Assistant Professor of Machine Learning and Remote Sensing at Wageningen University. His background is in Geodesy and Geoinformation, and he obtained a Ph.D. in Remote Sensing Technology at TU Munich. During his Ph.D., he visited the European Space Agency and the University of Oxford as a participant in the Frontier Development Lab (2018), and conducted research stays at the Obelix Laboratory in Vannes and the Lobell Lab at Stanford. As a postdoctoral researcher, he joined the Environmental Computational Science and Earth Observation Laboratory at EPFL, Switzerland. His research focuses on modern machine learning for Earth observation, with an emphasis on geospatial representation learning and Earth Embeddings. He develops methods that enable robust, transferable analysis of geospatial data and applies them to challenges such as agriculture, species mapping, and marine litter monitoring, with a particular interest in domain shifts and transfer learning in geographic settings.
+      Marc Rußwurm is Emmy Noether Group Leader and Junior Professor at the University of Bonn (starting Sept 2026), focused on Geospatial Representation Learning and Learning Concept Maps in Neural Nets. He heads the [Machine Learning in Earth Observation Laboratory](https://meo-lab.github.io/), where he develops machine learning models for socio-economic and environmental analysis with Earth observation data. He currently supervises two PhD candidates working on vegetation modelling and distribution shifts in agriculture. Previously he was Assistant Professor at Wageningen University, and a postdoctoral researcher at EPFL, Switzerland. His background is in Geodesy and Geoinformation, and he obtained a Ph.D. in Remote Sensing Technology at TU Munich. During his Ph.D., he collaborated with the European Space Agency and participated in the Frontier Development Lab at the University of Oxford. His research focuses on geospatial representation learning and machine learning in Earth observation with a fundamental methodological core through publications at ICLR, AAAI, ICML and in collaboration applications in agriculture, species mapping, and marine litter monitoring published in journals such as Remote Sensing of Environment, ISPRS Journal of Photogrammetry and Remote Sensing, Nature Earth & Environment.
 
 education:
+    - degree: Junior Professor and Emmy Noether Group Leader
+      university: University of Bonn
+      time: 09/2026 - ongoing
     - degree: Junior Research Group Leader
       university: University of Bonn
-      time: 2026 - today
+      time: 02/2026 - 09/2026
     - degree: Assistant Professor
       university: Wageningen University (WU)
       time: 2023 - 2026
@@ -145,45 +171,6 @@ projects:
         link: "https://tslearn.readthedocs.io/en/stable/"
         tagline: "A machine learning library for time series. (minor contributions while working on ELECTS)"
 
-publications:
-    title: Selected Publications
-    intro: |
-      A full list of publications available via <a href="https://scholar.google.com/citations?user=MfGMG9wAAAAJ&hl=en&oi=ao">google scholar</a>
-    papers:
-      - title: "Earth Embeddings: Towards AI-centric Representations of our Planet"
-        link: "https://eartharxiv.org/repository/view/11083/"
-        authors: Konstantin Klemmer, Esther Rolf, Marc Rußwurm, Gustau Camps-Valls, Mikolaj Czerkawski, Stefano Ermon, Alistair Francis, Nathan Jacobs, Hannah Rae Kerner, Lester Mackey, Gengchen Mai, Oisin Mac Aodha, Markus Reichstein, Caleb Robinson, David Rolnick, Evan Shelhamer, Vincent Sitzmann, Devis Tuia, Xiaoxiang Zhu
-        conference: EarthArxiv Preprint.
-
-      - title: "SatCLIP: Global, General-Purpose Location Embeddings with Satellite Imagery"
-        link: "https://arxiv.org/abs/2311.17179"
-        authors: Konstantin Klemmer, Esther Rolf, Caleb Robinson, Lester Mackey, Marc Rußwurm
-        conference: In Proceedings of AAAI 2025.
-
-      - title: "Better, Not Just More: Data-centric machine learning for Earth observation"
-        link: "https://ieeexplore.ieee.org/document/10740469"
-        authors: Ribana Roscher, Marc Rußwurm, Caroline Gevaert, Michael Kampffmeyer, Jefersson A. Dos Santos, Maria Vakalopoulou, Ronny Hänsch, Stine Hansen, Keiller Nogueira, Jonathan Prexl, Devis Tuia
-        conference: IEEE Geoscience and Remote Sensing Magazine. vol. 12, no. 4, pp. 335-355, Dec. 2024, doi 10.1109/MGRS.2024.3470986
-
-      - title: "Geographic Location Encoding with Spherical Harmonics and Sinusoidal Representation Networks"
-        link: "https://arxiv.org/abs/2310.06743"
-        authors: Marc Rußwurm, Konstantin Klemmer, Esther Rolf, Robin Zbinden, Devis Tuia
-        conference: ICLR 2024 selected for spotlight presentation (top 5%!)
-
-      - title: Large-scale detection of marine debris in coastal areas with Sentinel-2.
-        link: "https://www.sciencedirect.com/science/article/pii/S2589004223024793"
-        authors: Marc Rußwurm, Sushen Jilla Venkatesa, Devis Tuia
-        conference: Cell IScience, 26(12).
-
-#      - title: End-to-end learned early classification of time series for in-season crop type mapping
-#        link: "https://www.sciencedirect.com/science/article/pii/S092427162200332X"
-#        authors: Marc Rußwurm, Nicolas Courty, Rémi Emonet, Sébastien Lefèvre, Devis Tuia, Romain Tavenard
-#        conference: ISPRS Journal of Photogrammetry and Remote Sensing. Volume 196, February 2023, Pages 445-456.
-
-#      - title: "Self-attention for raw optical satellite time series classification"
-#        link: "https://www.sciencedirect.com/science/article/abs/pii/S0924271620301647"
-#        authors:  Rußwurm, M. and Körner, M.
-#        conference: "Self-attention for raw optical satellite time series classification. ISPRS Journal of Photogrammetry and Remote Sensing, 169:421 – 435. 2020"
 
 #      - title:  Meta-learning for few-shot land cover classification
 #        link: "https://openaccess.thecvf.com/content_CVPRW_2020/html/w11/Russwurm_Meta-Learning_for_Few-Shot_Land_Cover_Classification_CVPRW_2020_paper.html"

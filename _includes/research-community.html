@@ -7,14 +7,20 @@
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-user fa-stack-1x fa-inverse"></i>
+      <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
     </span>
     {{ research-community.title }}
   </h2>
 
-  <div class="summary">
-    {{ research-community.summary | markdownify }}
-  </div><!--//summary-->
+  <div class="research-section-content">
+    <div class="summary">
+      {{ research-community.summary | markdownify }}
+    </div><!--//summary-->
+
+    <div class="research-section-logo">
+      <img src="{{ site.baseurl }}/assets/images/meo_logo.jpeg" alt="Machine Learning in Earth Observation Laboratory logo">
+    </div>
+  </div>
     
 </section><!--//section-->
 {% endif %}
