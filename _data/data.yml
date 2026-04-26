@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Marc Rußwurm
-    tagline: Junior Professor and Emmy Noether Group Leader at the University of Bonn
+    tagline: Incoming Junior Professor and Emmy Noether Group Leader at the University of Bonn
     avatar: profile_2026.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
     affiliation:
       - title: Machine Learning in Earth Observation Laboratory
@@ -117,7 +117,7 @@ teaching:
 bio:
     title: Short Bio
     summary: |
-      Marc Rußwurm is Emmy Noether Group Leader and Junior Professor at the University of Bonn (starting Sept 2026), focused on Geospatial Representation Learning and Learning Concept Maps in Neural Nets. He heads the [Machine Learning in Earth Observation Laboratory](https://meo-lab.github.io/), where he develops machine learning models for socio-economic and environmental analysis with Earth observation data. He currently supervises two PhD candidates working on vegetation modelling and distribution shifts in agriculture. Previously he was Assistant Professor at Wageningen University, and a postdoctoral researcher at EPFL, Switzerland. His background is in Geodesy and Geoinformation, and he obtained a Ph.D. in Remote Sensing Technology at TU Munich. During his Ph.D., he collaborated with the European Space Agency and participated in the Frontier Development Lab at the University of Oxford. His research focuses on geospatial representation learning and machine learning in Earth observation with a fundamental methodological core through publications at ICLR, AAAI, ICML and in collaboration applications in agriculture, species mapping, and marine litter monitoring published in journals such as Remote Sensing of Environment, ISPRS Journal of Photogrammetry and Remote Sensing, Nature Earth & Environment.
+      Marc Rußwurm is an incoming Junior Professor and Emmy Noether Group Leader at the University of Bonn (starting Sept 2026), focused on Geospatial Representation Learning and Learning Concept Maps in Neural Nets. He heads the [Machine Learning in Earth Observation Laboratory](https://meo-lab.github.io/), where he develops machine learning models for socio-economic and environmental analysis with Earth observation data. He currently supervises two PhD candidates working on vegetation modelling and distribution shifts in agriculture. Previously he was Assistant Professor at Wageningen University, and a postdoctoral researcher at EPFL, Switzerland. His background is in Geodesy and Geoinformation, and he obtained a Ph.D. in Remote Sensing Technology at TU Munich. During his Ph.D., he collaborated with the European Space Agency and participated in the Frontier Development Lab at the University of Oxford. His research focuses on geospatial representation learning and machine learning in Earth observation with a fundamental methodological core through publications at ICLR, AAAI, ICML and in collaboration applications in agriculture, species mapping, and marine litter monitoring published in journals such as Remote Sensing of Environment, ISPRS Journal of Photogrammetry and Remote Sensing, Nature Earth & Environment.
 
 education:
     - degree: Junior Professor and Emmy Noether Group Leader
