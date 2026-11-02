@@ -89,30 +89,33 @@ teaching:
               - title: Machine Learning (FTE-35306)
               - title: Deep Learning (GRS-34806)
         
-#talks:
-#    title: Recent Talks and Presentations
-#    intro: A selected list of recent talks and presentations. For a full list see [this doc](https://docs.google.com/document/d19tuU260b34NOhiu-4-H5I1KvltgP4VPppjKKmxzj1Tc/edit?usp=sharing)
-#    talks:
-#          - title: Invited Talk
-#            link: "https://www.imageclef.org/LifeCLEF2023"
-#            conference: LifeCLEF 2023 Workshop at ImageCLEF
-#
-#          - title: Panel discussion on Resource Efficient Machine Learning
-#            link: "https://www.climatechange.ai/events/iclr2023"
-#            authors: panel with Sarah Beery, Hannah Kerner
-#            conference: Climate Change AI Workshok at the International Conference on Learning Representations (2023) in Kigali,Rwanda.
-#          - title: Marine debris detection with Sentinel-2 and Deep Segmentation Models
-#            link: "https://docs.google.com/presentation/d/1sLFXJvfFkvqhV9h6Ct1NVQfkezDF72_Gz01UYqI95OI/edit"
-#            authors:
-#            conference: Visit Geoforschungszentrum (GFZ) Potsdam. 17.05.2023
-#          - title: Mapping crop type at large scale in Europe
-#            link: "https://docs.google.com/presentation/d/1xaAMmiKhunLYKXff-Wni1ePd2IBgNs3V-6OSEvuQj08/edit?usp=sharing"
-#            authors: 
-#            conference: Guest Speaker (virtual). Mila/McGill Montreal. Course COMP767. 15.02.2023
-#          - title: Guest Lecture on Interpretability of Time Series Models at the Univerisity of Bonn
-#            link: "https://docs.google.com/presentation/d/1E82B3qo4qU_m9vQozxRWap_Y93qdJZOo2WG_E7Ruyl0/edit?usp=sharing"
-#            authors: 
-#            conference: University of Bonn. Geodesy Department. 19.10.2022
+talks:
+    title: Recent Talks and Presentations
+    intro: A selected list of recent talks and presentations. For a full list see my [Academic CV](marcrusswurm.pdf).
+    videos:
+          - title: "Geospatial Representation Learning"
+            youtube: "Wbx0Ij6TttI"
+    talks:
+          - title: Invited Talk
+            link: "https://www.imageclef.org/LifeCLEF2023"
+            conference: LifeCLEF 2023 Workshop at ImageCLEF
+
+          - title: Panel discussion on Resource Efficient Machine Learning
+            link: "https://www.climatechange.ai/events/iclr2023"
+            authors: panel with Sarah Beery, Hannah Kerner
+            conference: Climate Change AI Workshop at the International Conference on Learning Representations (2023) in Kigali, Rwanda.
+          - title: Marine debris detection with Sentinel-2 and Deep Segmentation Models
+            link: "https://docs.google.com/presentation/d/1sLFXJvfFkvqhV9h6Ct1NVQfkezDF72_Gz01UYqI95OI/edit"
+            authors:
+            conference: Visit Geoforschungszentrum (GFZ) Potsdam. 17.05.2023
+          - title: Mapping crop type at large scale in Europe
+            link: "https://docs.google.com/presentation/d/1xaAMmiKhunLYKXff-Wni1ePd2IBgNs3V-6OSEvuQj08/edit?usp=sharing"
+            authors:
+            conference: Guest Speaker (virtual). Mila/McGill Montreal. Course COMP767. 15.02.2023
+          - title: Guest Lecture on Interpretability of Time Series Models at the University of Bonn
+            link: "https://docs.google.com/presentation/d/1E82B3qo4qU_m9vQozxRWap_Y93qdJZOo2WG_E7Ruyl0/edit?usp=sharing"
+            authors:
+            conference: University of Bonn. Geodesy Department. 19.10.2022
 
 bio:
     title: Short Bio
